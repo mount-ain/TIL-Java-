@@ -42,17 +42,17 @@ public class Main {
 
 
 // 학점 계산기
-//        System.out.println("점수를 입력하세요: ");
-//        Scanner scanner = new Scanner(System.in);
-//        int score = scanner.nextInt();
-//
-//        switch (score/10) {
-//            case 10: case 9:
-//                System.out.println("학점 A");
-//                break;
-//            default:
-//                System.out.println("학점 F");
-//        }
+        System.out.println("점수를 입력하세요: ");
+        Scanner scanner = new Scanner(System.in);
+        int score = scanner.nextInt();
+
+        switch (score/10) {
+            case 10: case 9:
+                System.out.println("학점 A");
+                break;
+            default:
+                System.out.println("학점 F");
+        }
 
 // for문
         int sum = 0;
