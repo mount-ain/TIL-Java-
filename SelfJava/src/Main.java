@@ -55,26 +55,26 @@ public class Main {
 //        }
 
 // for문
-//        int sum = 0;
-//        for (int i = 1; i <= 10; i++) {
-//            sum += i;
-//            System.out.printf("1부터 %d까지의 합: %d\n", i, sum);
-//        }
+        int sum = 0;
+        for (int i = 1; i <= 10; i++) {
+            sum += i;
+            System.out.printf("1부터 %d까지의 합: %d\n", i, sum);
+        }
 
-//        String star = "*";
-//        for (int i = 0; i <= 5; i++) {
-//            for (int j = 0; j <= 5; j++) System.out.printf(star);
-//            System.out.println();
-//        }
-//
-//        for (int i = 1; i <= 5; i++) {
-//            for (int j = 0; j < i; j++) System.out.printf(star);
-//            System.out.println();
-//        }
+        String star = "*";
+        for (int i = 0; i <= 5; i++) {
+            for (int j = 0; j <= 5; j++) System.out.printf(star);
+            System.out.println();
+        }
 
-//        for (int i = 0; i <= 5; i++) {
-//            System.out.printf(star.repeat(i));
-//            System.out.println();
-//        }
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 0; j < i; j++) System.out.printf(star);
+            System.out.println();
+        }
+
+        for (int i = 0; i <= 5; i++) {
+            System.out.printf(star.repeat(i));
+            System.out.println();
+        }
     }
 }
