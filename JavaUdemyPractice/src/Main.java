@@ -28,10 +28,22 @@ public class Main {
 //        public static void add(int a) {
 //            a += 10;
 //        }
-        Car sedan = new Car(carType.CAR1, 50);
-        Passenger man1 = new Passenger("cornan", 70);
-        sedan.addFuel(50);
-        sedan.driveCar(man1, 30);
+//        Car sedan = new Car(carType.CAR1, 50);
+//        Passenger man1 = new Passenger("cornan", 70);
+//        sedan.addFuel(50);
+//        sedan.driveCar(man1, 30);
+        Flower flower = new Flower();
+        Boon boon = new Boon();
+        boon.fillWater(50);
+
+        for (int i=0;i<3;i++) boon.shootWater(flower);
+        flower.spendDay();
+
+        boon.shootWater(flower);
+        flower.spendDay();
+
+        for (int i=0;i<3;i++) boon.shootWater(flower);
+        flower.spendDay();
     }
     enum carType {
         CAR1,
