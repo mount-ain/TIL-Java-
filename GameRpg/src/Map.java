@@ -6,7 +6,7 @@ public class Map {
         Map.stage = stage;
     }
 
-    public int getStage() {
+    public static int getStage() {
         return Map.stage;
     }
     public void moveStage() {
